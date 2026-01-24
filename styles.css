@@ -1,0 +1,119 @@
+body {
+    background-color: #E0E1DD;
+}
+
+.btn-wrapper-left {
+    margin-left: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: "komet", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 25px;
+    color: #778DA9;
+}
+
+img {
+    margin-left: 25px;
+}
+
+hr {
+    height: 5px;
+    background-color: black;
+}
+
+h2 {
+    font-family: "komet-sc", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #415A77;
+}
+
+p {
+    font-family: "komet", sans-serif;
+    font-weight: 200;
+    font-style: light;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dates {
+    font-family: "komet", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.location {
+    font-family: "komet", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+ul {
+    margin-left: 10px;
+    color: #1B263B;
+}
+
+.two-columns {
+  columns: 2;          /* Number of columns */
+  column-gap: 2rem;    /* Space between columns */
+  list-style-position: inside; /* Keeps bullets inside the column */
+  padding: 0;
+  margin-left: 20px;
+}
+
+li {
+    font-family: "komet", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.skills {
+    font-family: "komet", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+footer p {
+    font-family: "komet", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Disable typography styles*/
+
+.no-typography h1,
+.no-typography h2,
+.no-typography p,
+.no-typography li,
+.no-typography .dates,
+.no-typography .location,
+.no-typography .skills,
+.no-typography footer p {
+    font-family: initial;
+    font-weight: initial;
+    font-style: initial;
+}
+
+/* Remove text alignment only */
+.no-typography h2,
+.no-typography p {
+    text-align: initial;
+}
+
+/* Disable <hr> styling but keep structure */
+.no-typography hr {
+    height: initial;
+    background-color: transparent;
+    border-top: 1px solid currentColor;
+}
+

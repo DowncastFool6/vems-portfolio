@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/crc1xhp.css">
+    <!-- Page Title -->
+    <title>My Contacts</title>
+</head>
+<body>
+    <div class="button">
+        <button id="toggleMinimal" type="button">Disable Styles</button>
+    </div>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+
+        <address class="contact-details">
+            <ul>
+            <li>
+                <strong>Email:</strong>
+                <a href="mailto:vems.dev@proton.me">
+                vems.dev@proton.me
+                </a>
+            </li>
+
+            <li>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/DowncastFool6"
+                target="_blank"
+                rel="noopener noreferrer">
+                github.com/DowncastFool6
+                </a>
+            </li>
+
+            <li>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/vissolela-cundi-a34b063a7/"
+                target="_blank"
+                rel="noopener noreferrer">
+                linkedin.com/in/vissolela-cundi-a34b063a7/
+                </a>
+            </li>
+            </ul>
+        </address>
+    </section>
+    <hr>
+
+    <div class="btn-wrapper-left">
+        <br>
+        <input type="button" value="Return to main page" onclick="history.go(-1)">
+    </div>
+
+    <footer>
+        <p>&copy; Vissolela Cundi. All rights reserved.</p>
+
+        <p class="last-updated">
+        Last updated:
+        <time id="last-updated" datetime=""></time>
+        </p>
+    </footer>
+    <script src="last_update.js" defer></script>
+    <script src="style_toggle.js" defer></script>
+</body>
+</html>
