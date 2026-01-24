@@ -1,15 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("style-toggle");
+  const toggleButton = document.getElementById("toggleMinimal");
+  const body = document.body;
+  const disabledClass = "no-typography";
 
-  if (!button) return;
+  if (!toggleButton) return;
 
-  button.addEventListener("click", () => {
-    document.body.classList.toggle("minimal-styles");
-
-    button.textContent = document.body.classList.contains("minimal-styles")
+  const updateButtonText = () => {
+    const stylesDisabled = body.classList.contains(disabledClass);
+    toggleButton.textContent = stylesDisabled
       ? "Enable styles"
       : "Disable styles";
+  };
+
+  // Initial state (on page load)
+  updateButtonText();
+
+  toggleButton.addEventListener("click", () => {
+    body.classList.toggle(disabledClass);
+    updateButtonText();
   });
 });
-
-

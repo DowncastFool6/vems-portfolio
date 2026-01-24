@@ -1,8 +1,12 @@
 body {
-
+    background-color: #E0E1DD;
 }
 
-.botton {
+.btn-wrapper-left {
+    margin-left: 30px;
+}
+
+.button {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
@@ -13,6 +17,7 @@ h1 {
     font-weight: 900;
     font-style: normal;
     margin-left: 25px;
+    color: #778DA9;
 }
 
 img {
@@ -29,6 +34,7 @@ h2 {
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    color: #415A77;
 }
 
 p {
@@ -53,7 +59,8 @@ p {
 }
 
 ul {
-    margin-left: 20px;
+    margin-left: 10px;
+    color: #1B263B;
 }
 
 .two-columns {
@@ -61,12 +68,8 @@ ul {
   column-gap: 2rem;    /* Space between columns */
   list-style-position: inside; /* Keeps bullets inside the column */
   padding: 0;
+  margin-left: 20px;
 }
-
-.two-columns li {
-  margin-bottom: 0.5rem;
-}
-
 
 li {
     font-family: "komet", sans-serif;
@@ -80,17 +83,41 @@ li {
     font-style: normal;
 }
 
+.other-links {
+    text-decoration: none;
+}
+
 footer p {
     font-family: "komet", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-/* Disabled styles */
+/* Disable typography styles*/
 
-.minimal-styles h1,
-.minimal-styles p {
-  color: inherit;
-  background: none;
-  font-weight: normal;
+.no-typography h1,
+.no-typography h2,
+.no-typography p,
+.no-typography li,
+.no-typography .dates,
+.no-typography .location,
+.no-typography .skills,
+.no-typography footer p {
+    font-family: initial;
+    font-weight: initial;
+    font-style: initial;
 }
+
+/* Remove text alignment only */
+.no-typography h2,
+.no-typography p {
+    text-align: initial;
+}
+
+/* Disable <hr> styling but keep structure */
+.no-typography hr {
+    height: initial;
+    background-color: transparent;
+    border-top: 1px solid currentColor;
+}
+
