@@ -1,0 +1,8 @@
+# _config.yml
+title: Vissolela Cundi
+description: A simple online resume.
+baseurl: ""  # leave empty if deploying to user.github.io, otherwise set to repo name
+url: "https://downcastfool6.github.io/vems-portfolio/"  # replace with your GitHub Pages URL
+
+# Tell Jekyll where the site source is
+source: docs

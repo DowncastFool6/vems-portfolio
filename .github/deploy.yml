@@ -1,0 +1,2 @@
+- name: Build Vissolela's Site
+  run: bundle exec jekyll build --source ./docs --destination ./_site
