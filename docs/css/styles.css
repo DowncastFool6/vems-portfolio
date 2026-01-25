@@ -85,10 +85,15 @@ ul {
     color: #1B263B;
 }
 
+.list-space {
+    margin-bottom: 30px;
+}
+
 li {
     font-family: "komet", sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-right: 40px;
 }
 
 .programs {
@@ -103,6 +108,7 @@ li {
   list-style-position: inside; /* Keeps bullets inside the column */
   padding: 0;
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .other-links {
@@ -110,7 +116,9 @@ li {
 }
 
 .btn-wrapper-left {
+    margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 footer p {

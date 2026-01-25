@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!timeEl) return;
 
   const lastModified = new Date(document.lastModified);
+  const now = new Date();
+  timeEl.datetime = now.toISOString();           // sets datetime in correct ISO 8601
+  timeEl.textContent = now.toLocaleDateString(); // human-readable date
 
   // Human-readable text
   timeEl.textContent = lastModified.toLocaleDateString("en-GB", {
@@ -14,4 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Machine-readable (SEO + accessibility)
   timeEl.setAttribute("datetime", lastModified.toISOString().split("T")[0]);
 });
+
+
+
 
