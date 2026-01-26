@@ -42,7 +42,8 @@ h2 {
     font-style: normal;
     text-align: center;
     color: #415A77;
-    font-size: 2rem;
+    font-size: 2.1rem;
+    margin-top: 10px;
 }
 
 p, ul, ol, li {
@@ -62,6 +63,15 @@ hr {
     height: 5px;
     background-color: black;
     border: 0;
+}
+
+.svg-center {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    fill: #0D1B2A;
 }
 
 .location {
