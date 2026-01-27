@@ -35,8 +35,12 @@ h1 {
 .profile-pic {
     display: flex;
     justify-content: center; /* centers children horizontally */
-    background-color: lightgray; /* optional, just to see the parent */
     padding: 20px;
+}
+
+img {
+    width: 15rem;
+    height: auto;
 }
 
 h2 {
@@ -74,7 +78,6 @@ hr {
     align-items: center;     /* vertical */
     margin-top: 20px;
     margin-bottom: 0px;
-    fill: #0D1B2A;
 }
 
 .location {
