@@ -159,6 +159,29 @@ footer p {
     font-style: initial;
 }
 
+/* Disable all colors */
+.no-typography *,
+.no-typography {
+    color: initial !important;           /* resets text color */
+    background-color: initial !important; /* resets background */
+    border-color: initial !important;     /* resets border color */
+}
+
+/* Disable all image styles */
+.no-typography img {
+    all: unset;
+    display: inline;   /* keep inline display */
+    max-width: 100%;   /* optional: keep responsive scaling */
+}
+
+/* Disable all SVG alignment and styles */
+.no-typography svg {
+    all: unset;           /* resets everything */
+    display: inline;      /* default display */
+    max-width: 100%;      /* optional: keep responsive scaling */
+    vertical-align: baseline; /* reset vertical alignment */
+}
+
 /* Remove text alignment only */
 .no-typography h2,
 .no-typography p {

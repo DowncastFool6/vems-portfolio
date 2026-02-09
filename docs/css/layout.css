@@ -3,5 +3,13 @@
     flex-direction: column;
 }
 
+/* =========================================
+   DISABLE LAYOUT MODE
+   ========================================= */
+
+.no-typography .container {
+    display: block;
+}
+
 /*Add different screen size layouts*/
 
