@@ -22,7 +22,7 @@ It showcases personal and professional information in a clean layout and include
 This project is ideal for learning **web fundamentals** and **GitHub project organization**.
 
 ## 🚀 Live Demo
-👉 (Add your GitHub Pages link here once deployed)
+👉 https://downcastfool6.github.io/vems-online-cv/
 
 ## 🛠️ Technologies Used
 
